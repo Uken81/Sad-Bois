@@ -1,0 +1,64 @@
+.members-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .bio-container {
+        display: flex;
+        // align-items: center;
+        // justify-content: center;
+        height: 50vh;
+        width: 40vw;
+
+        background-size: cover;
+        background-color: black;
+        border: 10px solid white;
+        border-radius: 10%;
+
+        #sadboibadboi-text {
+            height: 80%;
+            width: 30%;
+            align-self: flex-end;
+            margin: 1vh 0 8vh auto;
+            
+            // margin-left: auto;
+            // margin-bottom: 8vh;
+        }
+
+        #sadboigirl-text {
+            width: 40%;
+            align-self: center;
+            margin: 0 4vw 0 auto;
+            margin-left: auto;
+        }
+    }
+
+    .bio-text-container {
+        height: 20vh;
+        width: 20vw;
+        padding: 1rem;
+        font-family: 'Piedra', cursive;
+        text-align: center;
+        color: rgba(152, 50, 69, 1);
+        text-shadow:
+            -1.5px -1.5px 0 white,
+            1.5px -1.5px 0 white,
+            -1.5px 1.5px 0 white,
+            1.5px 1.5px 0 white;
+        font-size: 1.35em;
+
+        h1 {
+            -webkit-text-stroke: 1px black;
+        }
+
+        h2 {
+            color: white;
+            -webkit-text-stroke: 1px black;
+            text-shadow:
+            -2.5px -2.5px 0 rgba(152, 50, 69, 1),
+            2.5px -2.5px 0 rgba(152, 50, 69, 1),
+            -2.5px 2.5px 0 rgba(152, 50, 69, 1),
+            2.5px 2.5px 0 rgba(152, 50, 69, 1);
+        }
+    }
+}

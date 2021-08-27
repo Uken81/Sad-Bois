@@ -1,0 +1,54 @@
+.descriptions-container {
+
+    .members-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 25vh;
+        background-color: black;
+        background: linear-gradient(blue, pink);
+        font-family: 'Rampart One', cursive;
+
+        h1 {
+            font-size: 10vh;
+            color: gold
+        }
+
+        h2 {
+            font-size: 4vh;
+        }
+    }
+
+    .body {
+        display: flex;
+        height: 170vh;
+        width: 100%;
+        background-color: black;
+        background-image: url(../../assets/images/members-images/membersBG.gif);
+        background-repeat: no-repeat;
+        background-size: 70% 95%;
+        background-position: center;
+    }
+
+    .members-container {
+        width: 100%;
+
+        #saddestboi-bio {
+            
+            // justify-self: flex-end;
+            margin: 10vh 0 0 4vw;
+        }
+
+        #sadboibadboi-bio {
+            align-self: flex-end;
+            margin: 0 4vw 0 0;
+        }
+
+        #sadboigirl-bio {
+            align-self: flex-start;
+            margin: 0 0 2vh 4vw;
+        }
+
+    }
+}

@@ -12,6 +12,7 @@ function App() {
         <Route exact path='/' component={HomePage} />
         <Route path='/members' component={Members} />
       </Switch>
+      <Members />
     </div>
   );
 }
